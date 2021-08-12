@@ -9,5 +9,5 @@ services:
       - "7001:80" 
 networks:
   default:
-  external:
-    name: microservice_network
+    external:
+      name: microservice_network
